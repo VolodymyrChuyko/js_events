@@ -1,0 +1,26 @@
+{
+  "name": "tt_sysgears",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "htmllint": "npx linthtml src/**/*.html",
+    "eslint": "npx eslint --ext .js src/",
+    "stylelint": "npx stylelint src/**/*.css",
+    "test": "npm run eslint && npm run stylelint && npm run htmllint"
+  },
+  "author": "Volodymyr Chuyko",
+  "license": "ISC",
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.3",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0"
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  }
+}
