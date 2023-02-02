@@ -1,10 +1,6 @@
-# Env_js_html_css
+# Events
 
-## Base
-  1 .gitignore
-  2 .editorconfig
-
-## Linters
-  1 eslint
-  2 htmllint
-  3 stylelint
+This stand demonstrates:
+   - using of event delegation pattern
+   - using of Event() constructor and CustomEvent() constructor
+   - the difference between synthetic event and custom event
